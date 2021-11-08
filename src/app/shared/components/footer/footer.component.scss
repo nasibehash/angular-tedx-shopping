@@ -1,0 +1,72 @@
+.about-area {
+    padding: 40px 0;
+    text-align: center;
+    border-bottom: 3px solid #f71d1dcf;
+    background-color: #dbdee16e !important;
+    -webkit-box-shadow: -2px -4px 5px -2px #706f7070;
+    -moz-box-shadow: -2px -4px 5px -2px #706f7070;
+    box-shadow: -2px -4px 5px -2px #706f7070;
+    .logo {
+        border-radius: 50%;
+        padding: 10px 15px 10px 10px;
+        background-color: #fff;
+    }
+    .x-text {
+        color: #f71d1dcf;
+    }
+    .about-text {
+        font-size: 22px;
+        color: #7a7575cc;
+        font-weight: 800;
+        text-align: justify;
+    }
+}
+
+.footer {
+    padding: 40px 150px;
+    background-color: #dbdee16e !important;
+    h4 {
+        font-weight: 800;
+    }
+    p {
+        font-size: 20px;
+    }
+    ul {
+        padding-right: 0 !important;
+        margin-right: 0 !important;
+        font-size: 20px;
+        li {
+            margin-bottom: 10px;
+        }
+    }
+    &__contact {
+        &--info {
+            padding-left: 100px;
+        }
+    }
+    &__top--menu {
+        padding-left: 50 px;
+        &-list {
+            padding-top: 5 px;
+            display: flex;
+            justify-content: space-between;
+            ul {
+                padding-right: 0 !important;
+                margin-right: 0 !important;
+                font-size: 20px;
+                li {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .footer {
+        padding: 40px 50px;
+        .footer__contact--info {
+            padding-left: 0;
+        }
+    }
+}

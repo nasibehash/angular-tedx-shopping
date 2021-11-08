@@ -1,0 +1,103 @@
+<section class="section__one">
+    <swiper [config]="config2">
+        <app-main-header></app-main-header>
+        <app-main-header></app-main-header>
+
+    </swiper>
+</section>
+<section class="section__two">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 section__two--right">
+                <img class="img-fluid" src="assets/images/people.png" alt="">
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12  section__two--left">
+                <h1>چرا این تدتاک را باید ببینید؟ </h1>
+                <p class="text">علی بندری لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است</p>
+                <p class="people">
+                    <img src="assets/images/people.png" width="50" height="50" class="rounded-circle" alt="">
+                    <span class="people-name">سپهر گنجی ,</span>
+                    <span class="people-text">لورم ایپسوم متن ساختگی با تولید</span>
+                </p>
+                <a class="curve-button " href=" ">  مشاهده تدتاک </a>
+                <p class="link">مرتبط با : <a href="">تکنولوژی</a> , <a href="">علم</a> ,<a href="">آینده</a> ,<a href="">دنیای بهتر</a> </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section__three">
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 text-lg-start  text-center">
+                <h1>جدیدترین تدکس ها </h1>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12  text-lg-end  text-center">
+
+                <a href=""> مشاهده همه <mat-icon color="warn">keyboard_arrow_left</mat-icon></a>
+            </div>
+        </div>
+        <div class="row">
+            <swiper [config]="config1">
+                <div *ngFor="let teds of tedsData">
+
+                    <app-tedx-card [teds]="teds"></app-tedx-card>
+                </div>
+
+            </swiper>
+        </div>
+    </div>
+</section>
+<section class="section__four">
+
+    <swiper [config]="config2">
+        <app-week-podcast></app-week-podcast>
+        <app-week-podcast></app-week-podcast>
+    </swiper>
+
+</section>
+<section class="section__five">
+    <div class="container-fluid">
+        <div class="row mb-5">
+            <div class="col-lg-6 col-md-12 col-sm-12 text-lg-start  text-center">
+                <h1>جدیدترین کتاب ها </h1>
+            </div>
+            <div class="col-lg-6  col-md-12 col-sm-12  text-lg-end  text-center">
+
+                <a href=""> مشاهده همه <mat-icon color="warn">keyboard_arrow_left</mat-icon></a>
+            </div>
+        </div>
+        <div class="row">
+            <swiper [config]="config3">
+                <app-newest-book></app-newest-book>
+                <app-newest-book></app-newest-book>
+                <app-newest-book></app-newest-book>
+                <app-newest-book></app-newest-book>
+
+
+            </swiper>
+        </div>
+
+    </div>
+</section>
+<section class="section__six">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="row mb-5">
+                <div class="col-lg-6 col-lg-6 col-md-12 col-sm-12 text-lg-start  text-center">
+                    <h1>رویدادها</h1>
+                </div>
+                <div class="col-lg-6 col-lg-6 col-md-12 col-sm-12 text-lg-end  text-center">
+
+                    <a href=""> مشاهده همه <mat-icon color="warn">keyboard_arrow_left</mat-icon></a>
+                </div>
+            </div>
+            <div class="row">
+                <swiper [config]="config1">
+                    <app-events> </app-events>
+                    <app-events> </app-events>
+                    <app-events> </app-events>
+                </swiper>
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,266 @@
+    .section__one {
+        background-color: #dbdee16e !important;
+         ::ng-deep swiper {
+            // position: relative !important;
+            img {
+                border-radius: 5px !important;
+            }
+            .swiper-container {
+                // position: initial !important;
+            }
+            .swiper-button-prev {
+                // right: -60px !important;
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+            .swiper-button-next {
+                // left: -60px !important;
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+        }
+    }
+    
+    .section__two {
+        padding: 100px 150px;
+        &--right {
+            padding-left: 100px;
+            img {
+                border-radius: 5px !important;
+            }
+        }
+        &--left {
+            h1 {
+                font-weight: 800;
+                margin-bottom: 15px;
+                // font-size: 50px;
+                margin-bottom: 30px;
+            }
+            .text {
+                font-size: 25px;
+                font-weight: 800;
+                margin-bottom: 45px;
+                margin-bottom: 30px;
+            }
+            .people {
+                margin-bottom: 30px;
+                font-weight: 700;
+                font-size: 20px;
+                .people-name {
+                    margin-right: 20px;
+                }
+                .people-text {
+                    color: #7a7575cc;
+                }
+            }
+            .link {
+                margin-top: 30px;
+                a {
+                    color: #f71d1dcf !important;
+                    font-weight: bold !important;
+                    font-size: 20px !important;
+                }
+            }
+        }
+    }
+    
+    .section__three {
+        padding: 100px 150px;
+        background-color: #dbdee16e !important;
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+        }
+        a {
+            font-weight: bold;
+            font-size: 25px;
+            color: #f71d1dcf !important;
+            mat-icon {
+                vertical-align: sub !important;
+                font-size: 25px;
+            }
+        }
+         ::ng-deep swiper {
+            position: relative !important;
+            img {
+                border-radius: 5px !important;
+            }
+            .swiper-container {
+                position: initial !important;
+            }
+            .swiper-button-prev {
+                right: -60px !important;
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+            .swiper-button-next {
+                left: -60px !important;
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+        }
+    }
+    
+    .section__four {
+        padding: 50px 50px;
+         ::ng-deep swiper {
+            img {
+                border-radius: 5px !important;
+            }
+            .swiper-button-prev {
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+            .swiper-button-next {
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+        }
+    }
+    
+    .section__five {
+        background-color: #dbdee16e !important;
+        padding: 100px 150px;
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+        }
+        a {
+            font-weight: bold;
+            font-size: 25px;
+            color: #f71d1dcf !important;
+            mat-icon {
+                vertical-align: sub !important;
+                font-size: 25px;
+            }
+        }
+         ::ng-deep swiper {
+            position: relative !important;
+            img {
+                border-radius: 5px !important;
+            }
+            .swiper-container {
+                position: initial !important;
+            }
+            .swiper-button-prev {
+                right: -60px !important;
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+            .swiper-button-next {
+                left: -60px !important;
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+        }
+    }
+    
+    .section__six {
+        // background-color: #dbdee16e !important;
+        padding: 100px 150px;
+        h1 {
+            font-size: 40px;
+            font-weight: 900;
+        }
+        a {
+            font-weight: bold;
+            font-size: 25px;
+            color: #f71d1dcf !important;
+            mat-icon {
+                vertical-align: sub !important;
+                font-size: 25px;
+            }
+        }
+         ::ng-deep swiper {
+            position: relative !important;
+            img {
+                border-radius: 5px !important;
+            }
+            .swiper-container {
+                position: initial !important;
+            }
+            .swiper-button-prev {
+                right: -60px !important;
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+            .swiper-button-next {
+                left: -60px !important;
+                color: #000 !important;
+                font-weight: 900 !important;
+                opacity: 1 !important;
+            }
+        }
+    }
+    
+    @media (max-width: 1200px) {
+        .section__one {}
+        .section__two {
+            padding: 70px 20px;
+            &--right {
+                padding-left: 0;
+            }
+            &--left {
+                .text {
+                    font-size: 20px !important;
+                }
+                .people {
+                    font-size: 18px !important;
+                }
+            }
+        }
+        .section__three {
+            padding: 60px 50px;
+            h1 {
+                font-size: 30px;
+            }
+             ::ng-deep swiper {
+                .swiper-button-prev {
+                    right: -50px !important;
+                }
+                .swiper-button-next {
+                    left: -50px !important;
+                }
+            }
+        }
+        .section__four {
+            padding: 70px 50px;
+        }
+        .section__five {
+            padding: 70px 50px;
+            h1 {
+                font-size: 30px;
+            }
+             ::ng-deep swiper {
+                .swiper-button-prev {
+                    right: -50px !important;
+                }
+                .swiper-button-next {
+                    left: -50px !important;
+                }
+            }
+        }
+        .section__six {
+            padding: 70px 50px;
+            h1 {
+                font-size: 30px;
+            }
+             ::ng-deep swiper {
+                .swiper-button-prev {
+                    right: -50px !important;
+                }
+                .swiper-button-next {
+                    left: -50px !important;
+                }
+            }
+        }
+    }

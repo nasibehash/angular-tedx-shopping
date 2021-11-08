@@ -1,0 +1,116 @@
+<!-- <div class="main__drawer app-theme-light" [class.main__drawer--is-mobile]="mobileQuery.matches">
+    <div class="">
+        <mat-sidenav-container [dir]="dir">
+            <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'" [fixedInViewport]="mobileQuery.matches" (click)="snav.toggle()">
+                <mat-nav-list>
+                    <a mat-list-item *ngFor="let nav of menu" [routerLink]="[nav.route]">{{ nav.displayName }}</a>
+                </mat-nav-list>
+                <div class="search">
+                    <form id="mc-form">
+                        <a href="#">
+                            <mat-icon [ngStyle]="{ color: 'white' }">search</mat-icon>
+                        </a>
+                        <input placeholder="جستجو..." />
+                    </form>
+                </div>
+            </mat-sidenav>
+
+            <div class="main__toolbar container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-3 text-center logo">
+                        <button class="menu-button" mat-icon-button (click)="snav.toggle()">
+              <mat-icon>menu</mat-icon>
+            </button>
+                        <button mat-button class="logo-zindex" [routerLink]="['/']">
+              <img src="/assets/images/logo.png" alt="" class="logo-header" />
+            </button>
+                    </div>
+
+                    <div class="nav-button col-lg-5 col-md-9 text-end">
+                        <a mat-button *ngFor="let nav of menu" [routerLink]="[nav.route]" routerLinkActive="router-link-active">{{
+              nav.displayName
+            }}</a>
+                    </div>
+                    <div class="login-area col-lg-4 d-none d-lg-block text-center">
+                        <ul>
+                            <li class="">
+                                <a class="rec-button" href="">اجرای زنده</a>
+                            </li>
+
+                            <li>
+                                <button class="search-icon mx-3" mat-icon-button>
+                  <mat-icon>search</mat-icon>
+                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <mat-sidenav-content>
+
+              </mat-sidenav-content>
+        </mat-sidenav-container>
+                <router-outlet></router-outlet>
+                <app-footer></app-footer>
+
+    </div>
+</div> -->
+
+<div class="main__drawer app-theme-light" [class.example-is-mobile]="mobileQuery.matches">
+    <div class="main__toolbar container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 text-center logo">
+                <button class="menu-button" mat-icon-button (click)="snav.toggle()">
+      <mat-icon>menu</mat-icon>
+    </button>
+                <button mat-button class="logo-zindex" [routerLink]="['/']">
+      <img src="/assets/images/logo.png" alt="" class="logo-header" />
+    </button>
+            </div>
+
+            <div class="nav-button col-lg-5 col-md-9 text-end">
+                <a mat-button *ngFor="let nav of menu" [routerLink]="[nav.route]" routerLinkActive="router-link-active">{{
+      nav.displayName
+    }}</a>
+            </div>
+            <div class="login-area col-lg-4 d-none d-lg-block text-center">
+                <ul>
+                    <li class="">
+                        <a class="rec-button" href="">اجرای زنده</a>
+                    </li>
+
+                    <li>
+                        <button class="search-icon mx-3" mat-icon-button>
+          <mat-icon>search</mat-icon>
+        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <mat-sidenav-container class="example-sidenav-container">
+        <mat-sidenav #snav [mode]="mobileQuery.matches ? 'over' : 'side'" [fixedInViewport]="mobileQuery.matches" (click)="snav.toggle()">
+            <mat-nav-list>
+                <a mat-list-item *ngFor="let nav of menu" [routerLink]="[nav.route]">{{ nav.displayName }}</a>
+            </mat-nav-list>
+            <div class="search">
+                <form id="mc-form">
+                    <a href="#">
+                        <mat-icon [ngStyle]="{ color: 'white' }">search</mat-icon>
+                    </a>
+                    <input placeholder="جستجو..." />
+                </form>
+            </div>
+        </mat-sidenav>
+
+        <mat-sidenav-content>
+            <router-outlet></router-outlet>
+            <app-footer></app-footer>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</div>

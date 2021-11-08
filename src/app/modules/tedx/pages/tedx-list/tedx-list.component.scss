@@ -1,0 +1,45 @@
+.tedx-wrapper {
+    padding: 40px 150px;
+    .tedx-header {
+        margin-bottom: 18px;
+        h1 {
+            font-weight: 900;
+            font-size: 50px;
+            margin-right: 20px;
+        }
+    }
+    .tedx-content {}
+    .rec-button {
+        font-size: 20px !important;
+        mat-icon {
+            vertical-align: sub;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .tedx-wrapper {
+        padding: 40px 40px;
+        .rec-button {
+            font-size: 16px !important;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .tedx-wrapper {
+        .tedx-header {
+            // margin: 0 52px 40px 56px;
+            h1 {
+                font-weight: 80;
+                font-size: 40px;
+            }
+            .filter-btn {
+                margin-bottom: 30px;
+            }
+            .category-btn {
+                text-align: left !important;
+            }
+        }
+    }
+}

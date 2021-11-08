@@ -1,0 +1,30 @@
+<div class="tedx-wrapper">
+    <div class="container-fluid">
+        <div class="row tedx-header">
+            <div class="col-lg-6 col-md-4 col-sm-4 ">
+                <h1>
+                    تدکس ها
+                </h1>
+            </div>
+            <div class="col-lg-6 col-md-8 col-sm-8 text-end">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 filter-btn ">
+                        <a class="rec-button mx-3" href=""> فیلتر تدکس ها</a>
+
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 text-start category-btn">
+                        <a class="rec-button" href=""> دسته بندی نتایج <mat-icon >keyboard_arrow_down</mat-icon></a>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row tedx-content">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-5" *ngFor="let teds of tedsData">
+                <app-tedx-card [teds]="teds"></app-tedx-card>
+
+            </div>
+
+        </div>
+    </div>

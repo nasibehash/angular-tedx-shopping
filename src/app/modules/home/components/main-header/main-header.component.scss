@@ -1,0 +1,36 @@
+.section__one--right {
+    padding: 80px 150px 0 150px;
+    h1 {
+        font-weight: 800;
+        margin-bottom: 15px;
+        font-size: 50px;
+    }
+    p {
+        font-size: 32px;
+        margin-bottom: 45px;
+    }
+}
+
+.section__one--left {
+    padding: 0 150px;
+}
+
+@media (max-width: 1200px) {
+    .section__one--right {
+        padding: 70px 20px;
+        h1 {
+            font-weight: 800;
+            margin-bottom: 15px;
+            font-size: 30px;
+        }
+        p {
+            font-size: 20px;
+            margin-bottom: 45px;
+        }
+    }
+    .section__one--left {
+        img {
+            display: none;
+        }
+    }
+}

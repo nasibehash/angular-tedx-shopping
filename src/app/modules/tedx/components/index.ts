@@ -1,0 +1,1 @@
+// export * from './tedx-card/tedx-card.component';

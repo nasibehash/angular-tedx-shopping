@@ -1,0 +1,19 @@
+<div>
+    <div class="container">
+        <div class="col-lg-12 mb-4">
+            <img src="assets/images/newest-tedx.png" class="img-fluid" width="495" alt="">
+        </div>
+        <div class="col-lg-12">
+            <div class="row">
+                <div class="col-8">
+                    <h4 class="mb-3 fw-bolder">{{teds.title}}</h4>
+                    <h5 class="mb-3">زمان: <span>{{teds.publishTime  | jalaliFull}}</span></h5>
+                    <h5>{{teds.category.name}}</h5>
+                </div>
+                <div class="col-4 text-end">
+                    <h5 class="mb-3"><span>{{teds.videoTime}}</span> دقیقه</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

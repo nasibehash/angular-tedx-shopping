@@ -1,0 +1,114 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.io/guide/theming
+@import '~@angular/material/theming';
+@import "assets/styles/fonts";
+// Plus imports for other components in your app.
+// Include the common styles for Angular Material. We include this here so that you only
+// have to load a single css file for Angular Material in your app.
+// Be sure that you only ever include this mixin once!
+@include mat-core();
+// Define the palettes for your theme using the Material Design palettes available in palette.scss
+// (imported above). For each palette, you can optionally specify a default, lighter, and darker
+// hue. Available color palettes: https://material.io/design/color/
+$tedx-primary: mat-palette($mat-indigo);
+$tedx-accent: mat-palette($mat-pink, A200, A100, A400);
+// The warn palette is optional (defaults to red).
+$tedx-warn: mat-palette($mat-red);
+// Create the theme object. A theme consists of configurations for individual
+// theming systems such as "color" or "typography".
+$tedx-theme: mat-light-theme(( color: ( primary: $tedx-primary, accent: $tedx-accent, warn: $tedx-warn, )));
+// Include theme styles for core and each component used in your app.
+// Alternatively, you can import and @include the theme mixins for each component
+// that you are using.
+@include angular-material-theme($tedx-theme);
+
+/* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    // font-family: 'Pelak,sans-serif' !important;
+    font-family: IRANYekan !important;
+    direction: rtl;
+}
+
+.rec-button {
+    background-color: #f71d1dcf;
+    color: #fff !important;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.rec-button:hover {
+    background-color: #fff;
+    color: #f71d1dcf !important;
+    border: 1px solid #f71d1dcf;
+}
+
+.dark-button {
+    background-color: rgb(63, 63, 63);
+    color: #fff !important;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.dark-button:hover {
+    background-color: #fff;
+    color: rgb(63, 63, 63) !important;
+    border: 1px solid rgb(63, 63, 63);
+}
+
+.border-button {
+    background-color: #fff;
+    border: 1px solid #f71d1dcf;
+    color: #f71d1dcf !important;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.border-button:hover {
+    background-color: #f71d1dcf;
+    color: #fff !important;
+}
+
+.curve-button {
+    background-color: #f71d1dcf;
+    color: #fff !important;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+li {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+@media (max-width: 1200px) {
+    .rec-button {
+        font-size: 18px !important;
+    }
+    .dark-button {
+        font-size: 18px !important;
+    }
+    .border-button {
+        font-size: 18px !important;
+    }
+    .curve-button {
+        font-size: 18px !important;
+    }
+}
