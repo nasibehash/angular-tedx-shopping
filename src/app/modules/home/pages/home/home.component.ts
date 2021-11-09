@@ -108,7 +108,6 @@ export class HomeComponent implements OnInit {
       }
       else{
         console.log('no content');
-        
       }
     }
     , error => {
