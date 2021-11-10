@@ -1,0 +1,6 @@
+<svg id="vuesax_twotone_heart" data-name="vuesax/twotone/heart" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="heart">
+    <path id="Vector" d="M15.487,27.469a3,3,0,0,1-1.808,0C9.45,25.933,0,19.527,0,8.67A8.4,8.4,0,0,1,8.108,0a7.9,7.9,0,0,1,6.475,3.474A7.919,7.919,0,0,1,21.058,0a8.4,8.4,0,0,1,8.108,8.67C29.167,19.527,19.717,25.933,15.487,27.469Z" transform="translate(1.417 2.196)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Vector-2" data-name="Vector" d="M0,0H32V32H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>

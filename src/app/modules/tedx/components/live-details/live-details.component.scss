@@ -1,0 +1,103 @@
+// colors
+$primary: #1d8cf8;
+$secondary: #4f537b;
+$info: #11cdef;
+$success: #00bf9a;
+$warning: #ff8d72;
+$danger: #fd5d93;
+// timeline variables
+$body-bg: #1e1e2f;
+$timeline-before-bg: #222a42;
+$timeline-body-bg: #27293d;
+$timeline-body-round: 3px;
+$timeline-body-shadow: 1px 3px 9px rgba(0, 0, 0, .1);
+// timeline style
+.timeline {
+    position: relative;
+    padding-right: 4rem;
+    margin: 0 0 0 30px;
+    color: #000 !important;
+    &:before {
+        content: '';
+        position: absolute;
+        right: 40px;
+        top: 0;
+        width: 1px;
+        height: 80%;
+        background: rgba(82, 80, 80, 0.281);
+    }
+    .timeline-container {
+        position: relative;
+        margin-bottom: 2.5rem;
+        ;
+        .timeline-icon {
+            position: absolute;
+            right: -50px;
+            top: -2px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            text-align: center;
+            font-size: 2rem;
+            background-color: none;
+            img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+            }
+        }
+        .timeline-icon.circle {
+            background-color: #f71d1dcf;
+            width: 15px;
+            height: 15px;
+            right: -31px;
+            top: 23px;
+        }
+        .timeline-body {
+            background: none;
+            // border-radius: $timeline-body-round;
+            padding: 6px 20px 15px;
+            // box-shadow: $timeline-body-shadow;
+            &:before {
+                content: '';
+                background: inherit;
+                width: 20px;
+                height: 20px;
+                display: block;
+                position: absolute;
+                left: -10px;
+                transform: rotate(45deg);
+                border-radius: 0 0 0 2px;
+            }
+            .timeline-title {
+                margin-bottom: 1.4rem;
+                .badge {
+                    background-color: none;
+                    padding: 4px 8px;
+                    border-radius: 3px;
+                    font-size: 28px;
+                    font-weight: 800;
+                    color: #000 !important;
+                }
+                .redBadge {
+                    background: #e75d5d29;
+                    padding: 10px;
+                    border-radius: 40px;
+                    color: #f71d1dcf !important;
+                    float: left;
+                }
+            }
+            .timeline-subtitle {
+                font-weight: 300;
+                font-style: italic;
+                opacity: .4;
+                margin-top: 16px;
+                font-size: 11px;
+            }
+            .restTime {
+                font-size: 28px;
+                font-weight: 800;
+            }
+        }
+    }
+}

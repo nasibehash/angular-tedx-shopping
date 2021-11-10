@@ -1,0 +1,7 @@
+<svg id="vuesax_twotone_clock" data-name="vuesax/twotone/clock" xmlns="http://www.w3.org/2000/svg" width="33" height="33" viewBox="0 0 33 33">
+  <g id="clock" transform="translate(0 0)">
+    <path id="Vector" d="M27.353,13.677A13.677,13.677,0,1,1,13.677,0,13.682,13.682,0,0,1,27.353,13.677Z" transform="translate(2.823 2.823)" fill="none" stroke="#e62633" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path id="Vector-2" data-name="Vector" d="M5.76,10.828,1.383,8.216A3.126,3.126,0,0,1,0,5.788V0" transform="translate(15.904 10.197)" fill="none" stroke="#e62633" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.4"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H33V33H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>

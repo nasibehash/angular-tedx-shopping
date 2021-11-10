@@ -18,6 +18,8 @@ const routes: Routes = [
     loadChildren: () => import('./modules/auth/auth.module').then((m) => m.AuthModule),
   },
   
+  { path: 'podcast-card', loadChildren: () => import('./shared/components/podcast-card/podcast-card.module').then(m => m.PodcastCardModule) },
+  
 
 
  

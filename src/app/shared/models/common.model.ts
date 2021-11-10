@@ -19,11 +19,11 @@ export const MAIN_MENU: NavItemContext[] = [
   },
   {
     displayName: 'پادکست',
-    route: '',
+    route: '/podcast',
   },
   {
     displayName: 'کتاب',
-    route: '',
+    route: 'book',
   },
   {
     displayName: 'رویداد',

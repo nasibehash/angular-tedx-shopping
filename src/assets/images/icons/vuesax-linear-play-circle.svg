@@ -1,0 +1,7 @@
+<svg id="vuesax_linear_play-circle" data-name="vuesax/linear/play-circle" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="play-circle">
+    <path id="Vector" d="M26.64,13.32A13.32,13.32,0,1,1,13.32,0,13.32,13.32,0,0,1,26.64,13.32Z" transform="translate(2.64 2.68)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-2" data-name="Vector" d="M0,5.365V3.128C0,.34,1.97-.8,4.382.6L6.325,1.721,8.268,2.846c2.412,1.394,2.412,3.672,0,5.065L6.325,9.037,4.382,10.163C1.97,11.556,0,10.417,0,7.63Z" transform="translate(11.627 10.94)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Vector-3" data-name="Vector" d="M0,0H32V32H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>

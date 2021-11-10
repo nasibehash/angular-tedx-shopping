@@ -10,7 +10,7 @@ import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import { FooterModule } from '../shared/components/footer/footer.module';
-// import { TedxListComponent } from './home/pages/tedx/pages/tedx-list/tedx-list.component';
+
 
 @NgModule({
   declarations: [

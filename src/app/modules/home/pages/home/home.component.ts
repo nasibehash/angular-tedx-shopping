@@ -10,7 +10,7 @@ import {HomeService} from '../../sandbox';
 export class HomeComponent implements OnInit {
 
   tedsData?: Tedx[] = [];
-  dataPagination: PaginationContext = { page: 1, limit: 10, total:0,sort: 'createdAt' };
+  dataPagination: PaginationContext = { page: 1, limit: 10, total:0,sort: 'createdAt_desc' };
 
   constructor(private HomeService:HomeService) { }
 
@@ -100,10 +100,10 @@ export class HomeComponent implements OnInit {
     this.getTeds();
   }
   getTeds(){
-    this.HomeService.getTeds().subscribe(response => {
+    this.HomeService.getTeds(this.dataPagination).subscribe(response => {
       if(response){
         this.tedsData = response.docs;
-        this.dataPagination = { page: response.data.page, limit: response.data.limit, total: response.data.total,sort: 'createdAt' };
+        this.dataPagination = { page: response.page, limit: response.limit, total: response.total,sort: 'createdAt_desc' };
         
       }
       else{

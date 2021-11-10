@@ -1,1 +1,2 @@
-// export * from './tedx-card/tedx-card.component';
+export * from './about-speaker/about-speaker.component';
+export * from './live-details/live-details.component';

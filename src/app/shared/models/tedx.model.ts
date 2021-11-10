@@ -5,40 +5,39 @@
     description: string;
     about:  string;
     owner: string;
-    speakers: speakers;
-    details:Array<details>;
+    speakers: Array<Speakers>;
+    details:Array<Details>;
     tags:Array<any>;
     streamLink:string;
     publishTime:Date;
     createdAt:Date;
     updatedAt: Date;
-   category:category;
+   category:Category;
    videoTime:number;
  }
  
- export interface speakers{
+ export interface Speakers{
     _id: string;
     name: string;
     about: string;
     photo: string;
  }
- export interface speaker{
+ export interface Speaker{
    _id: string;
    name: string;
    about: string;
    photo: string;
 }
- export interface details{
+ export interface Details{
     _id: string;
     order: number;
-    speaker:Array<speaker>;
+    speaker:Speaker;
     title:  string ;
     time: number;
     restTime:number;
  }
 
- export interface category
- {
+ export interface Category{
    _id:string;
    name:string;
    createdAt:Date;

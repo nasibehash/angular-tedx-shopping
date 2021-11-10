@@ -1,0 +1,18 @@
+<div class="container-fluid">
+    <div class="row py-2">
+        <div class="col-lg-6">
+            <p>
+                <!-- <img src="assets/images/people.png" class="rounded-circle" width="50" height="50" alt=""> -->
+                <span class=" mx-3 fw-bold">{{comments.userData.name ?comments.userData.name:comments.userData.mail}}</span>
+            </p>
+        </div>
+        <div class="col-lg-6 text-end">
+            <span class="fw-bold date">{{comments.createdAt  | persianDate }}</span>
+        </div>
+    </div>
+    <div class="row">
+        <p>
+            {{comments.text}}
+        </p>
+    </div>
+</div>

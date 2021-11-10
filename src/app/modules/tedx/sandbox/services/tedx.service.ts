@@ -13,6 +13,31 @@ export class TedxService {
 
   getTeds(params?) {
 
+    let createdParams = new HttpParams();
+    createdParams = createdParams.append('page', params.page);
+    createdParams = createdParams.append('limit', params.limit);
+    params.filters &&
+      Object.keys(params.filters).forEach((key) => {
+        if (params.filters[key]) {
+          createdParams = createdParams.append(`filters[${key}]`, `${params.filters[key]}`);
+        }
+      });
+    createdParams = createdParams.append('sort', 'createdAt_desc');
+    return this.httpClient.get(`/teds`,{params:createdParams}).pipe(
+      map((response: any) => response),
+      catchError((error: HttpErrorResponse) => throwError(error))
+    );
+  }
+  getOneTeds(tedId) {
+
+    return this.httpClient.get(`/teds/${tedId}`).pipe(
+      map((response: any) => response),
+      catchError((error: HttpErrorResponse) => throwError(error))
+    );
+  
+  }
+  getComments(tedId) {
+
     // let createdParams = new HttpParams();
     // createdParams = createdParams.append('page', params.page);
     // createdParams = createdParams.append('limit', params.limit);
@@ -23,11 +48,9 @@ export class TedxService {
     //     }
     //   });
     // createdParams = createdParams.append('sort', 'createdAt_desc');
-    return this.httpClient.get(`/teds`).pipe(
+    return this.httpClient.get(`/comments/post/${tedId}`).pipe(
       map((response: any) => response),
       catchError((error: HttpErrorResponse) => throwError(error))
     );
   }
-
-
 }

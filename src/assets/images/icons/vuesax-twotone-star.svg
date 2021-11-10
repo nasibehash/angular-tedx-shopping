@@ -1,0 +1,6 @@
+<svg id="vuesax_twotone_star" data-name="vuesax/twotone/star" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <g id="star">
+    <path id="Vector" d="M17.1,2.1,19.67,7.253A3.17,3.17,0,0,0,21.741,8.79l4.652.776c2.975.5,3.675,2.665,1.531,4.8L24.307,18a3.189,3.189,0,0,0-.758,2.651l1.035,4.5c.817,3.559-1.065,4.935-4.2,3.075l-4.36-2.592a3.141,3.141,0,0,0-2.887,0l-4.36,2.592c-3.121,1.86-5.016.469-4.2-3.075l1.035-4.5A3.189,3.189,0,0,0,4.854,18L1.238,14.37c-2.129-2.138-1.444-4.305,1.531-4.8L7.421,8.79A3.177,3.177,0,0,0,9.477,7.253L12.044,2.1C13.444-.7,15.718-.7,17.1,2.1Z" transform="translate(1.417 1.472)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5"/>
+    <path id="Vector-2" data-name="Vector" d="M0,0H32V32H0Z" fill="none" opacity="0"/>
+  </g>
+</svg>

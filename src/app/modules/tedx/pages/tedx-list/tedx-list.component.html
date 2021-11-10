@@ -13,8 +13,10 @@
 
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 text-start category-btn">
-                        <a class="rec-button" href=""> دسته بندی نتایج <mat-icon >keyboard_arrow_down</mat-icon></a>
-
+                        <!-- <a class="rec-button" href=""> دسته بندی نتایج <mat-icon >keyboard_arrow_down</mat-icon></a> -->
+                        <select>
+                            <option *ngFor="let selectItems of selectItems" [value]="selectItems.id" >{{selectItems.title}}</option>
+                        </select>
                     </div>
                 </div>
 

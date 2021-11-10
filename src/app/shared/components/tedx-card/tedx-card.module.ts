@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {PipeModule} from 'shared/pipes';
-
+import {RouterModule} from '@angular/router';
 import { TedxCardComponent } from './tedx-card.component';
 
 
@@ -11,7 +11,8 @@ import { TedxCardComponent } from './tedx-card.component';
   ],
   imports: [
     CommonModule,
-    PipeModule
+    RouterModule,
+    PipeModule,
   ],
   exports:[
     TedxCardComponent

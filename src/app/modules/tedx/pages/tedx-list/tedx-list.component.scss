@@ -7,6 +7,28 @@
             font-size: 50px;
             margin-right: 20px;
         }
+        .category-btn {
+            // text-align: left !important;
+            select {
+                width: 200px;
+                background-color: #f71d1dcf;
+                color: #fff !important;
+                padding: 10px;
+                border-radius: 5px;
+                font-weight: bold;
+                text-align: center;
+                font-size: 20px;
+                margin-top: -4px;
+                outline: none;
+                height: 51px;
+                border: none !important;
+                option {
+                    background-color: #fff !important;
+                    color: #000;
+                    border: none;
+                }
+            }
+        }
     }
     .tedx-content {}
     .rec-button {
@@ -36,9 +58,6 @@
             }
             .filter-btn {
                 margin-bottom: 30px;
-            }
-            .category-btn {
-                text-align: left !important;
             }
         }
     }

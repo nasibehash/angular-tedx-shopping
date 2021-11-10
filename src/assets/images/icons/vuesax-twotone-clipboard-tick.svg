@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.007" height="37.007" viewBox="0 0 37.007 37.007">
+  <g id="vuesax_twotone_clipboard-tick" data-name="vuesax/twotone/clipboard-tick" transform="translate(-172 -252)">
+    <g id="clipboard-tick" transform="translate(172 252)">
+      <path id="Vector" d="M0,3.855,2.313,6.168,8.481,0" transform="translate(14.356 18.812)" fill="none" stroke="#e62633" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.4"/>
+      <path id="Vector-2" data-name="Vector" d="M3.084,6.168H9.252c3.084,0,3.084-1.542,3.084-3.084C12.336,0,10.794,0,9.252,0H3.084C1.542,0,0,0,0,3.084S1.542,6.168,3.084,6.168Z" transform="translate(12.336 3.084)" fill="none" stroke="#e62633" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-3" data-name="Vector" d="M20.045,0c5.135.278,7.71,2.174,7.71,9.221v9.252c0,6.168-1.542,9.252-9.252,9.252H9.252C1.542,27.724,0,24.64,0,18.473V9.221C0,2.19,2.575.278,7.71,0" transform="translate(4.626 6.199)" fill="none" stroke="#e62633" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Vector-4" data-name="Vector" d="M0,0H37.007V37.007H0Z" fill="none" opacity="0"/>
+    </g>
+  </g>
+</svg>

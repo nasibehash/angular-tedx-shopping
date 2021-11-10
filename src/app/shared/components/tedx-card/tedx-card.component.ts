@@ -11,7 +11,7 @@ export class TedxCardComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.teds);
+   
     
   }
 

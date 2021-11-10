@@ -1,0 +1,57 @@
+<div class="timeline">
+    <div class="timeline-container" *ngFor="let detail of details">
+        <div class="timeline-body">
+
+            <h4 class="timeline-title">
+                <span class="badge">{{ detail?.speaker?.name }}</span>
+                <span class="redBadge">
+            <i [inlineSVG]="'assets/images/icons/timer-start.svg'" class="mx-2"></i>
+            <span>{{detail?.time}}</span>
+                </span>
+            </h4>
+
+            <span class="mx-3">
+          <i [inlineSVG]="'assets/images/icons/vuesax-twotone-clipboard-tick.svg'" class="mx-2"></i>
+          <span class="time"> <span> </span> موضوع : </span>
+            {{ detail?.title }}
+            </span>
+        </div>
+        <div class="timeline-icon">
+            <img src="'{{detail?.speaker?.photo}}'" width="50" height="50" class="rounded-circle" alt="" />
+        </div>
+
+    </div>
+</div>
+
+
+<!-- <div class="timeline">
+    <div class="timeline-container" *ngFor="let detail of details">
+        <div class="timeline-body">
+            <div *ngIf="!detail.restTime">
+                <h4 class="timeline-title">
+                    <span class="badge">{{ detail.speaker.name }}</span>
+                    <span class="redBadge">
+            <i [inlineSVG]="'assets/images/icons/timer-start.svg'" class="mx-2"></i>
+            <span>{{detail.time}}</span>
+                    </span>
+                </h4>
+
+                <span class="mx-3">
+          <i [inlineSVG]="'assets/images/icons/vuesax-twotone-clipboard-tick.svg'" class="mx-2"></i>
+          <span class="time"> <span> </span> موضوع : </span>
+                {{ detail.title }}
+                </span>
+            </div>
+            <div class="timeline-icon" *ngIf="!detail.restTime">
+                <img src="'{{detail.speaker.photo}}'" width="50" height="50" class="rounded-circle" alt="" />
+            </div>
+            <div *ngIf="detail.restTime">
+                <p class="restTime">
+                    <span>{{ detail.restTime }} </span> دقیقه استراحت
+                </p>
+            </div>
+        </div>
+
+        <div class="timeline-icon circle" *ngIf="detail.restTime"></div>
+    </div>
+</div> -->
